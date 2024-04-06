@@ -1,0 +1,21 @@
+1.
+Similar concepts between the companies include:
+1. Responsibility of the reviewer: Both emphasize that the reviewer shares responsibility for the code's quality and maintainability, ensuring it meets standards before approval.
+2. Communication is key: They stress the importance of clear communication between the reviewer and the submitter, including understanding the context of changes and discussing any feedback or disagreements openly.
+
+Key differences include:
+1. Approach to code review size: Yelp advocates for keeping code reviews small to facilitate quicker, more focused reviews, while the Microsoft blog post does not explicitly mention this.
+2. Emphasis on automation: The Visual Studio Mobile Center team discusses leveraging automation in the code review process to streamline certain aspects, a point that is not as explicitly covered in Yelp's guidelines.
+
+A code review checklist for a development team should include items that ensure code correctness, maintainability, security, adequate testing, and adherence to coding standards. It should also encourage clear communication and understanding of the code's purpose and implementation details.
+
+
+2.
+The review is beneficial because it provides specific, actionable feedback on improving the code's efficiency and compatibility. 
+It suggests using getaddrinfo() for broader protocol support, hints at compiling the code in C for wider compatibility, and discusses optimizing connection attempts to unresponsive ports. Such insights help enhance code quality, performance, and maintainability.
+https://codereview.stackexchange.com/questions/291445/simple-task-for-networking-programmers
+
+3.
+This review lacks depth; it provides general compliments and identifies the absence of tests but fails to offer constructive, specific advice on how to improve or what areas need attention. 
+To be more beneficial, the review should include suggestions on how to expand the test coverage or examples of critical test cases missing. 
+https://codereview.stackexchange.com/questions/291416/an-arena-bump-allocator-in-c 
